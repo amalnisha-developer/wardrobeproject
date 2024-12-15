@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WardRobe - Elevate Your Everyday Look</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+ <link rel="shortcut icon" href="./images/Favicon.webp" type="image/x-icon">
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="navbar__brand">
+            <img src="./images/Favicon.webp" alt="icon" class="navbar__logo">
+            WardRobe
+        </h1>
+        <nav class="navbar__main-links">
+            <ul>
+                <li class="navbar__link-item"><a href="#">Home</a></li>
+                <li class="navbar__link-item"><a href="#">Collections</a></li>
+                <li class="navbar__link-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar__menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+    
+
+    <!-- Side Navbar -->
+    <aside class="side-navbar">
+        <p class="side-navbar__close" onclick="closeNavbar()" >
+
+
+            
+
+            <i class="fa-solid fa-xmark"></i>
+    </p>
+        <nav class="side-navbar__links">
+            <ul>
+                <li class="side-navbar__link-item"><a href="#">Home</a></li>
+                <li class="side-navbar__link-item"><a href="#">Collections</a></li>
+                <li class="side-navbar__link-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Header Section -->
+    <section class="hero">
+        <div class="hero__content">
+            <h2 class="hero__title">Level up your style</h2>
+            <p class="hero__subtitle">With our stunning collections</p>
+            <button class="hero__button" title="Shop Now">Shop Now</button>
+        </div>
+        <div class="hero__image-container">
+            <img src="./images/img4.jpg" alt="Fashion Collection" width="300" height="350" class="hero__image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="services__container1">
+        <div>
+            <h2 class="services__title">We Provide the Best</h2>
+            <h2 class="services__subtitle">Customer Experience</h2>
+        </div>
+        <div>
+            <p class="services__description">|| We ensure that our customers have the best shopping experience</p>
+
+        </div>
+      </div>
+
+      <div class="services__container2">
+        <div>
+            <i class="fa-solid fa-face-smile"></i>
+            <h4>Satisfication Guarante</h4>
+         <p>We promise top-quality products and customer satisfaction, guaranteed.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-shirt"></i>
+            <h4>New Arrival Everyday</h4>
+         <p> Explore our newest, trendiest collections, updated just for you.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-truck-fast"></i>            <h4>Fast & Free Shipping </h4>
+         <p>Enjoy speedy, cost-free delivery straight to your doorstep.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
