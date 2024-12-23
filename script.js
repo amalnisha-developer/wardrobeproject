@@ -17,3 +17,22 @@ menutoggle.addEventListener('click', function(){
     sidenav.classList.add('active'); // Add the active class to show the navbar
 }
 );
+    const newArrivalContainer = document.querySelector(".newarrival");
+    const leftButton = document.querySelector(".scroll-btn.left");
+    const rightButton = document.querySelector(".scroll-btn.right");
+
+
+    leftButton.addEventListener("click", () => {
+        newArrivalContainer.scrollBy({
+            left: -200,
+            behavior: "smooth",
+        });
+    });
+
+    rightButton.addEventListener("click", () => {
+        newArrivalContainer.scrollBy({
+            left: 200,
+            behavior: "smooth",
+        });
+    });
+
