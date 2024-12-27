@@ -35,10 +35,10 @@
             <ul>
                 <li class="navbar__link-item"><a href="index.html">Home</a></li>
                 <li class="navbar__link-item"><a href="collection.html">Collections</a></li>
-                <li class="navbar__link-item"><a href="#">Contact</a></li>
+                <li class="navbar__link-item"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <nav class="navbar__menu-toggle" onclick="showNavbar()">
+        <nav class="navbar__menu-toggle">
             <i class="fa-solid fa-bars"></i>
         </nav>
     </header>
@@ -46,7 +46,7 @@
 
     <!-- Side Navbar -->
     <aside class="side-navbar">
-        <p class="side-navbar__close" onclick="closeNavbar()">
+        <p class="side-navbar__close" >
 
 
 
@@ -63,9 +63,72 @@
     </aside>
 
 
+    <main>
+        <section class="product__section">
+            <!-- Product Search Form -->
+            <form action="" class="product-search">
+                <input type="text" id="search" placeholder="Search for products..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+    
+            <!-- Featured Products Section -->
+            <section class="featured">
+                <div class="featured__grid">
+                    <div class="featured__item">
+                        <img src="./images/dress.avif" alt="Elegant Summer Dress" class="featured__image" />
+                        <h3 class="featured__name">Dress</h3>
+                        <p class="featured__price">$49.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
+                    <div class="featured__item">
+                        <img src="./images/shoes.webp" alt="Classic White Shirt" class="featured__image" />
+                        <h3 class="featured__name">Shoes</h3>
+                        <p class="featured__price">$29.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
+                    <div class="featured__item">
+                        <img src="./images/handbag.avif" alt="Modern Denim Jacket" class="featured__image" />
+                        <h3 class="featured__name">Hand Bags</h3>
+                        <p class="featured__price">$69.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
+                    <div class="featured__item">
+                        <img src="./images/kurtis.avif" alt="Stylish Sneakers" class="featured__image" />
+                        <h3 class="featured__name">Kurtis</h3>
+                        <p class="featured__price">$89.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
+                    <div class="featured__item">
+                        <img src="./images/watch.avif" alt="Elegant Summer Dress" class="featured__image" />
+                        <h3 class="featured__name">Watch</h3>
+                        <p class="featured__price">$49.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
+                    <div class="featured__item">
+                        <img src="./images/gadgets.avif" alt="Classic White Shirt" class="featured__image" />
+                        <h3 class="featured__name">Gadgets</h3>
+                        <p class="featured__price">$29.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
+                    <div class="featured__item">
+                        <img src="./images/kitchen.webp" alt="Modern Denim Jacket" class="featured__image" />
+                        <h3 class="featured__name">Kitchen Sets</h3>
+                        <p class="featured__price">$69.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
+                    <div class="featured__item">
+                        <img src="./images/toys.avif" alt="Stylish Sneakers" class="featured__image" />
+                        <h3 class="featured__name">Toys</h3>
+                        <p class="featured__price">$89.99</p>
+                        <button class="featured__button">Buy Now</button>
+                    </div>
 
-
-
+                    
+                </div>
+            </section>
+        </section>
+    </main>
+    
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-box1">
@@ -86,8 +149,7 @@
         </div>
         
         </footer>
-        
-        
+                    
             <!-- JS Link -->
             <script src="script.js"></script>
         </body>
